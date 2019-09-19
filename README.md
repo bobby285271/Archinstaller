@@ -1,4 +1,4 @@
-# 「Dasyatis 的 Arch Linux 安装脚本」
+# Dasyatis 的 Arch Linux 安装脚本
 
 ### [返回 Dasyatis 主站 >>](https://www.bobby285271.top/)
 
