@@ -46,7 +46,7 @@ EOF
 
 pacstrap -i /mnt base base-devel xorg deepin deepin-extra noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
 grub efibootmgr intel-ucode fcitx-im fcitx-configtool wget aria2 git dos2unix gimp firefox-i18n-zh-cn code \
-neofetch file-roller gparted virtualbox
+neofetch file-roller gparted virtualbox bash-completion
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
