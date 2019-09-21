@@ -34,3 +34,6 @@
 /etc/environment
 /etc/sudoers
 ```
+
+## 维护者
+* Bobby Rong <[linux@bobby285271.top](mailto:linux@bobby285271.top)>
