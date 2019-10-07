@@ -44,7 +44,10 @@ Server = https://mirrors.ustc.edu.cn/archlinux/$repo/os/$arch
 Server = https://mirrors.zju.edu.cn/archlinux/$repo/os/$arch
 EOF
 
-pacstrap -i /mnt base base-devel xorg deepin deepin-extra noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
+pacstrap -i /mnt bash bzip2 coreutils cryptsetup device-mapper dhcpcd diffutils e2fsprogs file filesystem findutils gawk gcc-libs gettext glibc \
+grep gzip inetutils iproute2 iputils jfsutils less licenses linux linux-firmware logrotate lvm2 man-db man-pages mdadm nano netctl pacman pciutils \
+perl procps-ng psmisc reiserfsprogs s-nail sed shadow sysfsutils systemd-sysvcompat tar texinfo usbutils util-linux vi which xfsprogs base base-devel \
+xorg deepin deepin-extra noto-fonts-cjk noto-fonts-emoji noto-fonts-extra \
 grub efibootmgr intel-ucode fcitx-im fcitx-configtool wget aria2 git dos2unix gimp firefox-i18n-zh-cn code \
 neofetch file-roller gparted virtualbox bash-completion
 
